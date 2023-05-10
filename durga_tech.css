@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: crimson; 
+    
+}
+
+.nav{
+    background-color: dodgerblue;
+    height: 100px;
+    text-align: center;
+}
+.nav h1{
+  
+    margin: 0px;
+    font-size: 60px;
+    position: relative;
+    top: 12px;
+}
+.sidebar{
+  background-color: rgb(69, 218, 215);
+    width: 250px;
+    height: 600px;
+}
+
+.sidebar span{
+
+    margin-top: 10px;
+    font-size: 40px;
+    display: block;
+}
+
+    
+
+span a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+  flex-direction: row;
+    
+}
+
+.box{
+    background-color: crimson;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box1{
+    
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+    box-shadow: 13px 10px 10px #dbe7e0d9;
+ background-color:yellow;
+}
+
+
+.con2{
+    display: flex;
+    flex-direction: column;
+}
+
+.box2{
+    margin-left: 40px;
+    width: 1055px;
+    height: 255px;
+    background-color:yellow;
+}
